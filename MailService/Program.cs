@@ -37,7 +37,7 @@ namespace MailService
                         smtp.Send(mail);
                     }
 
-                    Console.WriteLine("E-mail has been sent successfuly");
+                    Console.WriteLine("E-mail has been sent successfully");
                 }
             }
             catch (Exception ex)
